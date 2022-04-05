@@ -17,6 +17,7 @@ public class ActionClass {
 		Actions a=new Actions(driver);
 		WebElement courses = driver.findElement(By.xpath("//a[text()='COURSES']"));
 		a.moveToElement(courses).perform();
+		$$$
 
 
 	}
